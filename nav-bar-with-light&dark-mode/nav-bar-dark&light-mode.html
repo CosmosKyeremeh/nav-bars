@@ -3,25 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS link  -->
   <link rel="stylesheet" href="nav-bar-dark&light-mode.css">
-  
+
+  <!-- Boxicons link for icons  -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
   <title>Nav-bar 3</title>
 </head>
 <body>
   <nav>
     <div class="nav-bar">
-      <span class="logo">BonGr&</span>
+      <span class="logo"> <a href="#">BonGr&</a> </span>
 
       <div class="menu">
-        <ul class="nav-links">
+        <!-- <ul class="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
-        </ul>
+        </ul> -->
+      </div>
+
+      <div class="darkLight-searchBox">
+        <div class="dark-light">
+          <i class='bx  bx-moon moon' ></i>
+          <i class='bx  bx-sun sun'  ></i>
+        </div> 
+        
+        <div class="searchBox">
+          <div class="searchToggle">
+            <i class='bx  bx-x cancel'  ></i> 
+            <i class='bx  bx-search search'  ></i>
+
+          <div class="search-field">
+            <input type="text" placeholder="Search..." name="" id="">
+            <i class='bx  bx-search'></i>
+          </div>
+          </div>   
+        </div>
+
       </div>
     </div>
   </nav>
+
+  <script src="nav-bar-dark&light-mode.js"></script>
 </body>
 </html>
